@@ -1,0 +1,15 @@
+[package]
+name = "try-wasm"
+version = "0.1.0"
+authors = ["Paulo <paulo@turboflakes.io>"]
+description = "A sample project with wasm-pack"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+
